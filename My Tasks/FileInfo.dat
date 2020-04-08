@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="run_onboard.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/08/2020 15:45:13</Property>
+      <Property Name="RunDuration">00:01:17</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+</Entities>
