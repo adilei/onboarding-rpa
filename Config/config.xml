@@ -8,6 +8,6 @@
     <bamboohr-user>samarac6@yjcoupone.com</bamboohr-user>
     <bamboohr-password>Bamboo2019</bamboohr-password>
     <bamboohr-company>Matrix IT</bamboohr-company>
-    <check-sample-file>C:\Users\Adi\Documents\Automation Anywhere Files\Automation Anywhere\My Tasks\onboarding specialist - BMC\OCR Images\check.png</check-sample-file>
+    <check-sample-file>C:\Users\Adi\Documents\Automation Anywhere Files\Automation Anywhere\My Tasks\onboarding-rpa\OCR Images\check.png</check-sample-file>
     <ocr-reference-file>C:\Users\Adi\Documents\Automation Anywhere Files\Automation Anywhere\My Tasks\onboarding specialist - BMC\OCR Images\micr_e13b_reference.png</ocr-reference-file>
 </onboarding-config>
