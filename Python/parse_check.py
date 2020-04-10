@@ -258,7 +258,10 @@ def parseCheque(imagePath, referencePath):
         
 
 #print(sys.argv[1])
-accountNum = parseCheque(sys.argv[1],sys.argv[2])
-pyperclip.copy("<ocr><bank-num>"+accountNum[0]+"</bank-num><account-num>"+accountNum[1]+"</account-num><check-num>"+accountNum[2]+"</check-num></ocr>")
+checkDetails = parseCheque(sys.argv[1],sys.argv[2])
+bankNum = checkDetails[0].replace('T','')
+accountNumber = checkDetails[1].replace('U','')
+checkNum = checkDetails[2]
+pyperclip.copy("<ocr><bank-num>"+bankNum+"</bank-num><account-num>"+accountNumber+"</account-num><check-num>"+checkNum+"</check-num></ocr>")
 
 
